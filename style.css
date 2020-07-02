@@ -59,7 +59,7 @@ section{
 .text-align{
     text-align: center;
     color: black;
-    font-size: 50px;
+    font-size: 35px;
 }
 .middle{
     text-align: center;
@@ -75,14 +75,24 @@ section{
 .client{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
-.link{
+.bad{
+    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
     color: white;
-    background-color: tomato;
-    border-radius: 10px;
-    padding-left: 10px 20px;
-    text-decoration: none;
-    width: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 5% 25%;
+    border-radius: 7px;
+}
+.line1{
+    font-size: 18px;
+}
+.line2{
+    font-size: 30px;
 }
 footer{
     text-align: center;
